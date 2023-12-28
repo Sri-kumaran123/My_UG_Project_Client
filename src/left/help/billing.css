@@ -1,0 +1,104 @@
+.Billing{
+    height: 100%;
+    width: 96%;
+    padding: 60px 0px 0 70px;
+    position: relative;
+}
+.Billing table{
+    
+    width: 100%;
+   
+
+   
+}
+td form{
+    padding-top:20px ;
+    padding-right: 20px;
+}
+form .f{
+    display: flex;
+    justify-content: space-around;
+}
+td .b{
+     display: flex;
+     justify-content: flex-end;
+     padding:20px  10px;
+
+}
+tr .data{
+   
+    width: inherit;
+    height: auto;
+    margin: 30px 0;
+}
+
+/*-----*/
+
+td form .f span label,td form .f span input,.selectone{
+    margin: 5px;
+    margin-bottom: 20px;
+}
+td form .f span input,.selectone{
+    border-radius: 5px;
+    height: 30px;
+    outline: none;
+    padding: 0 5px;
+    border: 1px solid #1976d2;
+    caret-color: #1976d2; 
+    font-size: 15px; 
+}
+
+td form .f span input:active{
+    border: 2px solid #1976d2;
+}
+
+
+
+
+.data{
+    width: 90%;
+    max-height: 50vh;
+    overflow-y: scroll;
+    
+   
+}
+.forh{
+    position: relative;
+}
+.data .emp{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1976d2;
+    box-shadow:inset -5px -5px 12px #fff,
+                inset 5px 5px 12px rgba(0,0,0,0.16);
+    background: #ecf0f3;
+    
+}
+.h-sb{
+    height: 100%;
+    width: 5%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: -10px;
+}
+
+.emp{
+    height: 60vh;
+}
+.s-h{
+    padding: 20px;
+    font-size: 25px;
+}
+.f-b{
+    display: flex;
+    padding: 30px;
+    justify-content: flex-end;
+}
+
+
+
+

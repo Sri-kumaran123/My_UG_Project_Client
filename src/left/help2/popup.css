@@ -1,0 +1,73 @@
+.Popup{
+    height: 100%;
+    width: 100%;
+    background-color: #ffffffa6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    font-family: sans-serif;
+    visibility: visible;
+    opacity: 1;
+
+}
+.Popup .popup2{
+    min-height: 30%;
+    min-width: 30%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-sizing: content-box;
+    padding: 10px;
+    animation: fade_up 0.5s;
+
+}
+@keyframes fade_up{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9)
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+.popup2 .p-d1{
+    min-height: 65%;
+    min-width: 100%;
+    
+    margin-bottom: 10px;
+}
+.popup2 .p-d2{
+    min-height: 30%;
+    min-width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.p-d1 table{
+    height: 100%;
+    width: 100%;
+}
+.p-d1 table tr td{
+    padding: 20px;
+}
+.p-d1 table tr td input{
+    padding: 5px;
+}
+.p-d1 table tr td select{
+    padding: 5px;
+    font-size: 15px;
+}
+.p-d2 button{
+    font-size: 15px;
+    margin-left:20px ;
+}

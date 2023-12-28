@@ -1,0 +1,26 @@
+.Float{
+    position: fixed;
+    min-height: 100px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    top: 200px;
+    right: 30px;
+    background-color: #fff;
+    border-left:1px solid gray ;
+}
+
+.Float div{
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.Float div a{
+    text-decoration: none;
+    color: black;
+}
+.Float div a:hover{
+    color: #1976d2;
+}

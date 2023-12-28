@@ -1,0 +1,12 @@
+.Box{
+    
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    min-height: 30px;
+    color: #1976d2;
+    background-color: #539fec8e;
+    border-radius: 5px;
+    margin: 30px 0;
+}
+

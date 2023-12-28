@@ -1,0 +1,110 @@
+.P-Profile{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.Profile{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.Profile .p-Right{
+    height: 90%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    border-right: 0.5px solid gray;
+    position: relative;
+   
+}
+.p-Right .edit{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+}
+
+.edit:hover{
+    color:#1976d2 ;
+}
+.Profile .p-Left{
+    height: 90%;
+    width: 65%;
+    padding: 30px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+
+}
+.p-Left,.p-Right{
+    margin-top: 5%;
+   
+    
+}
+
+.pic{
+    height: 40%;
+    width: 80%;
+    margin: 15px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.p-Right .p-table{
+    height: 50%;
+    width: 80%;
+    margin: 0 10px;
+}
+.p-Left .p-table table tr td{
+    padding: 30px;
+}
+.p-table table{
+    height: 100%;
+    width: 100%;
+}
+.p-table table tr td{
+    padding-right:50px;
+}
+.p-Left .t1{
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+}
+.p-Left .t1 tr td{
+    border-bottom: 1px solid gray;
+}
+.t1 tr td:first-child{
+    font-weight: bold;
+}
+.p-bottom{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.p-bottom button{
+    margin-right:60px ;
+}
+.h-s{
+    height: 100%;
+    width: 5%;
+    background-color: #fff;
+    position: absolute;
+    right:0 ;
+}
+.Profile hr{
+    margin-left:40px ;
+}
+.chart-p{
+    padding-top: 30px;
+}
+.p-bottom span{
+    padding-right:200px ;
+    font-size: 20px;
+}
+.p-bottom .d-none{
+    display: none;
+}

@@ -1,0 +1,83 @@
+.Row{
+    font-size: 18px;
+    
+    
+    
+}
+
+.Row div{
+    
+    font-style: none;
+    padding:20px;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    margin: 2px;
+    color: rgb(78, 77, 77);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+   
+
+}
+.Row span{
+    padding-right: 20%;
+}
+.Row div:hover,.mini >div:hover,.li2 div:hover{
+    background-color: rgb(190, 186, 186);
+    color:#1976d2;
+}
+.li,.li2{
+    text-decoration: none;
+}
+
+
+.mini{
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: #fff;
+}
+.mini div{
+    width: 100%;
+    padding:10px;
+    background-color:#e5e3e3;
+    border-top: .5px solid white;
+    padding-left: 30px;
+}
+.activie{
+    visibility: visible;
+}
+.inactive{
+    visibility: hidden;
+    position: absolute;
+    transition: ease-in-out;
+}
+
+.a{
+    border: 2px solid #1976d2;
+    color: #1976d2;
+}
+.li2 div{
+    background-color: transparent;
+    border: none;
+    color: black;
+   
+}
+.a span p{
+    transition: ease-in-out;
+    transform: rotate(90deg);
+}
+.nu p{
+    font-size: 30px;
+}
+
+
+
+/* .Row:hover{
+    background-color: gray;
+} */

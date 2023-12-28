@@ -1,0 +1,41 @@
+.Right{
+    height: 90%;
+    width: 100%;
+    /*defaut set up*/
+}
+.container,.container table{
+    width: 100%;
+    /* background-color: red; */
+}
+.container table{
+    background-color:#e5e3e3;
+    margin-top: 10px;
+}
+.container{
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-right: 0.5px solid rgb(171, 170, 170);
+}
+
+
+.container table td{
+    border-bottom: 1px solid #fff;
+}
+.spls{
+    font-style: none;
+    padding:20px;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    margin: 2px;
+    color: rgb(78, 77, 77);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.spls:hover{
+    background-color: rgb(190, 186, 186);
+    color:#1976d2;
+}

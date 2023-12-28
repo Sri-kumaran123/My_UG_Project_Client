@@ -1,0 +1,104 @@
+.Addcon{
+    min-height: 100%;
+    width: 100%;
+    
+    box-sizing: content-box;
+    padding: 60px 0px 0 70px;
+    
+    
+    
+}
+
+.Addcon table{
+    width: 90%;
+    margin: 30px;
+    font-size: 20px;
+    
+    /* background-color: #ecf0f3;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                      5px 5px 12px rgba(0,0,0,0.16);
+    border-radius: 30px; */
+}
+
+.Addcon  table tr td{
+    padding: 30px 20px ;
+}
+.Addcon  table tr td input,.Addcon  table tr td textarea{
+    padding: 8px;
+    margin-left: 40px;
+    width: 60%;
+    border-radius: 5px;
+    outline: none;
+    caret-color: #1976d2;
+    border-color:#1976d257 ;
+    /* background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset 5px 5px 12px rgba(0,0,0,0.16); */
+}
+.Addcon table tr td input:active ,.Addcon table tr td textarea:active{
+    border-color: #1976d2;
+}
+.Addcon  table tr td textarea{
+    height: 100px;
+    resize: none;
+    
+}
+
+
+.bottom-ofadd{
+    margin-top:100px;
+   
+    width: 100%;
+    height: 250px;
+    background-color:  #ecf0f3;
+    
+    left: -60px;   
+    overflow-x: scroll; 
+    position: relative;
+    
+}
+
+
+.bottom-ofadd table{
+    
+    min-width: 200%;
+    height: 70%;
+    
+}
+
+
+
+.BSbox{
+   
+    margin:10px;
+    height: 80%;
+    width: 80%;
+    padding: 20px;
+    background-color: #ecf0f3;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                      5px 5px 12px rgba(0,0,0,0.16);
+    border: #1976d2;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.BSbox span{
+    font-size: 30px;
+}
+.i-d{
+    padding-left: 50px;
+}
+.BSbox span:hover,.BSbox .i-d:hover{
+    color: #1976d2;
+    text-shadow: 2px 3px 5px black;
+    cursor: pointer;
+}
+form table tr td .b2-btn,form table tr td .b1-btn{
+    width: 100px;
+    margin-left: 50px;
+}
+form table tr td .b1-btn{
+    margin-left: 250px;
+}

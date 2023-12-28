@@ -1,0 +1,166 @@
+.Detail1{
+    min-height: 100vh;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    position: relative;
+    box-sizing: content-box;
+}
+.d1{
+    padding-bottom: 100px;
+}
+.d2{
+    padding-top: 100px;
+}
+
+.iande{
+    border:1px solid #1976d288;
+    height: 100vh;
+    width: 20%;
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+   
+}
+.iande2{
+    border:1px solid #1976d288;
+    height: 100vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.P-imge{
+    background-color: aqua;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.iande>.P-imge{
+    height: 25vh;
+    width: 12vw;
+    
+    
+   
+}
+.iande2>.P-imge{
+    height: 50%;
+    width: 30%;
+}
+.E-d{
+    margin: 30px 0;
+    border: 1px solid rgb(190, 186, 186);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.iande .E-d{
+    height: 10%;
+    width: 80%;
+    
+}
+.iande2 .E-d{
+    height:20px;
+    width: 30%;
+    position: absolute;
+    bottom: 30%;
+    left: 9%;
+}
+.E-d:hover{
+    background-color: #c2e0ea5c;
+}
+.detail1{
+    border: 1px solid rgb(190, 186, 186);
+    height: 100vh;
+    width: 60%;
+    margin: 40px 0;
+    margin-bottom: 60px;
+    overflow-y: scroll;
+    border-radius: 20px;
+   
+}
+.detail1 table{
+    visibility: visible;
+   
+    margin-top: 20px;
+    width: 100%;
+    padding: 0 30px;
+    
+    
+}
+.detail1 table th{
+    background-color: #1976d2;
+    color: #fff;
+    padding: 30px 0;
+}
+.detail1 table tr td{
+    padding: 20px 30px;
+    
+    
+}
+.detail1 table tr:hover{
+    color: #1976d2;
+    
+    background-color: #e7edf2;
+}
+
+.g{
+    background-color: green;
+    color: #fff;
+}
+.r1{
+    background-color: red;
+    color: #fff;
+}
+.iande .Name-u{
+    width: 100%;
+    height: 50%;
+}
+.iande2 .Name-u{
+    width: 50%;
+    height: 80%;
+}
+.Name-u table{
+    height: 90%;
+    width: 100%;
+    
+    padding-left: 50px;
+    border: 1px solid black;
+    margin-top: 50px;
+    border-radius: 5%;
+}
+
+
+.P-imge{
+    height: 600px;
+    width: 600px;
+}
+.E-d{
+    height: 30px;
+}
+
+.B-btn button{
+   position: absolute;
+    height: 60px;
+    bottom: 30px;
+    right: 100px;
+    z-index: 3;
+}
+
+.Hide-scrol{
+    position: absolute;
+    height: 100%;
+    width: 160px;
+    background-color: #ffffff;
+    right: 0;
+}
+.w2d{
+    width: 300px;
+}
+

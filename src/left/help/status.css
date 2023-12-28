@@ -1,0 +1,50 @@
+.Status{
+    height: 100%;
+    width: inherit;
+    background-color: none;
+    padding: 60px 0px 0 70px;
+    
+}
+.charts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 70px;
+}
+.p-em{
+    padding: inherit;
+}
+.tats2{
+    
+    font-size: 25px;
+}
+.search{
+    padding: 20px;
+    
+}
+.search label{
+    padding: 0 20px 0 10%;
+    font-size: 22px;
+}
+.search input{
+    padding: 5px;
+    border-radius: 5%;
+    font-size: 19px;
+    outline: none;
+    border-color: #1976d2af;
+}
+.bttt{
+    font-size: 20px;
+    padding: 7px 7px;
+    margin-left: 0px;
+    color: #fff;
+    background-color: #1976d2;
+    border: none;
+    border-radius: 5px;
+    
+}
+.bttt:hover{
+    cursor: pointer;
+    color: #093d71;
+}

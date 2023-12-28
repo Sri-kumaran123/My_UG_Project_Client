@@ -1,0 +1,33 @@
+.Print{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    
+}
+.P-head{
+    font-size: 30px;
+}
+.Print table{
+    width: 90%;
+    border: 1px dashed;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.Print table tr td{
+    border: 1px dashed;
+    padding-left:10px ;
+}
+.Print table tr{
+    height: 50px;
+}
+.d-none-f{
+    display: none;
+}
+.Print .tottt{
+   align-self: flex-end;
+   padding-right: 80px;
+}

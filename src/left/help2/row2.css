@@ -1,0 +1,32 @@
+.Row2{
+    animation: fade_up 0.5s;
+}
+@keyframes fade_up{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9)
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+.Row2 td{
+    padding: 10px;
+    text-align: center;
+}
+.Row2 td button{
+    padding:8px  20px;
+    font-size: 10px;
+    border-radius: 4px;
+    border: 1px solid #1976d2;
+    cursor: pointer;
+    background-color: #fff;
+}
+.Row2 td button:hover{
+    background-color: #1976d2;
+    color: #fff;
+}
+.Row2 td{
+    border-bottom:1px solid rgb(78, 77, 77) ;
+}

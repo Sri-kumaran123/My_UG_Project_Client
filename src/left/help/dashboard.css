@@ -1,0 +1,81 @@
+.Dashboard{
+    height: 100%;
+    width: inherit;
+    color: rgb(43, 37, 37);
+    padding: 60px 0px 0 70px;
+    
+    box-sizing: border-box;
+}
+.Dashboard table{
+    width: 100%;
+}
+
+/*presuse code*/
+
+.Msg{
+    font-size: 35px;
+    font-family: sans-serif;
+    padding: 10px;
+    padding-top: 30px;
+}
+.b-msg{
+    position: relative;
+}
+.b-msg > span{
+    position: absolute;
+    font-size: 20px;
+    right: 10%;
+    cursor: pointer;
+}
+.b-msg > span:hover{
+    color: #1976d2;
+    text-decoration: underline;
+}
+.no-Msg{
+    height: 60vh;
+    width: 100%;
+    
+    box-sizing: border-box;
+    
+}
+.no-Msg div{
+    height: 90%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border-radius: 20px;
+    font-size: 60px;
+    color: #1976d2;
+
+}
+/* td div{
+    border: 1px solid black;
+    border-radius: 5px;
+} */
+
+/* tr h1{
+    padding: 0 0;
+    font-size: 40px;
+}
+.none{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Dashboard table{
+    height: 100%;
+    width: 90%;
+   
+}
+.full{
+    height: 100%;
+    width: 100%;
+    
+} */

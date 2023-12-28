@@ -1,0 +1,59 @@
+.Product{
+    padding: 60px 0px 0 70px;
+    width: 100%;
+}
+.pro-t{
+    margin-top:30px ;
+    width: 75%;
+}
+.pro-t table tr td{
+    padding: 20px 30px;
+}
+.edit{
+    font-size: 30px;
+    padding-left: 20px;
+}
+.edit:hover{
+    cursor: pointer;
+    color: #1976d2;
+}
+.del-pr div:hover{
+    color: #1976d2;
+    cursor: pointer;
+    outline-color:#1976d2 ;
+}
+.del-pr{
+    padding: 5px;
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.del-pr .pop-ta{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff6f;
+}
+.del-pr .pop-ta table{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 70%;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+   
+}
+.del-pr .pop-ta table tr td{
+    padding: 5px 10px;
+    color: black;
+    background-color: #fff;
+}
+.del-pr .pop-ta table tr:hover{
+    background-color: #fff;
+    color: black;
+}
